@@ -16,3 +16,26 @@ jobs:
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           config_timezone: ${{ secrets.TIMEZONE }}
           base: header
+
+      - name: Lines
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: lines.svg
+          token: ${{ secrets.METRICS }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          config_timezone: ${{ secrets.TIMEZONE }}
+          base: repositories
+          plugin_lines: yes
+
+      - name: Languages
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: languages.svg
+          token: ${{ secrets.METRICS }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          config_timezone: ${{ secrets.TIMEZONE }}
+          base: ""
+          plugin_languages: yes
+          plugin_languages_details: bytes-size, percentage, line
