@@ -5,9 +5,13 @@ on:
   push:
     branches:
       - "main"
+    paths-ignore:
+      - "**.svg"
   pull_request:
     branches:
       - "main"
+    paths-ignore:
+      - "**.svg"
 
 concurrency:
   group: ${{ github.ref }}-${{ github.workflow }}
