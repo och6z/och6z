@@ -61,3 +61,4 @@ jobs:
           config_timezone: ${{ secrets.TIMEZONE }}
           base: ""
           plugin_activity: yes
+          plugin_activity_limit: 4
