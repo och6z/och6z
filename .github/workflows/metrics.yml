@@ -50,6 +50,7 @@ jobs:
           config_timezone: ${{ secrets.TIMEZONE }}
           base: ""
           plugin_followup: yes
+          plugin_followup_indepth: yes
 
       - name: Activity
         if: ${{ success() || failure() }}
