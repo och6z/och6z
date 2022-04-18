@@ -2,3 +2,6 @@
 
 [<img align="center" src="/lines.svg" alt="Lines" width="49%"/>](/lines.svg)
 [<img align="center" src="/languages.svg" alt="Languages" width="49%"/>](/languages.svg)
+
+[<img align="center" src="/followup.svg" alt="Follow-up" width="49%"/>](/followup.svg)
+[<img align="center" src="/activity.svg" alt="Activity" width="49%"/>](/activity.svg)
