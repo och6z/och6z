@@ -29,8 +29,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#637c476</div>
-                                        <div class="message">ci: Add limit</div>
+                                        <div class="sha">#e12b600</div>
+                                        <div class="message">ci: Add indepth</div>
                                     </div>
                                 </div>
                             </section>
@@ -59,7 +59,7 @@
                                     </svg>
                                     <div class="content">
                                         Merged
-                                        <span class="issue">#13 ci: Add limit</span>
+                                        <span class="issue">#14 ci: Add indepth</span>
                                     </div>
                                 </div>
                                 <div class="details">
@@ -76,7 +76,7 @@
                                     </svg>
                                     <div class="content">
                                         Opened
-                                        <span class="issue">#13 ci: Add limit</span>
+                                        <span class="issue">#14 ci: Add indepth</span>
                                     </div>
                                 </div>
                                 <div class="details">
