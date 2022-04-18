@@ -39,3 +39,25 @@ jobs:
           base: ""
           plugin_languages: yes
           plugin_languages_details: bytes-size, percentage, line
+
+      - name: Follow-up
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: followup.svg
+          token: ${{ secrets.METRICS }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          config_timezone: ${{ secrets.TIMEZONE }}
+          base: ""
+          plugin_followup: yes
+
+      - name: Activity
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: activity.svg
+          token: ${{ secrets.METRICS }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          config_timezone: ${{ secrets.TIMEZONE }}
+          base: ""
+          plugin_activity: yes
