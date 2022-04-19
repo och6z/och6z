@@ -74,7 +74,7 @@ jobs:
           config_timezone: ${{ secrets.TIMEZONE }}
           base: ""
           plugin_topics: yes
-          plugin_topics_mode: icons
+          plugin_topics_limit: 20
 
       - name: GitHub Skyline
         if: ${{ success() || failure() }}
