@@ -24,7 +24,7 @@
                                     <div class="content">
                                         Deleted
                       branch
-                                        <span class="code">feature/ci</span>
+                                        <span class="code">feature/refactor</span>
                                         in
                                         <span class="repo">och6z/code-bash-environment</span>
                                     </div>
@@ -45,8 +45,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#752a76d</div>
-                                        <div class="message">ci: Change dockerfile</div>
+                                        <div class="sha">#0312464</div>
+                                        <div class="message">refactor: Refact Containerfile.debian</div>
                                     </div>
                                 </div>
                             </section>
@@ -59,12 +59,12 @@
                                     </svg>
                                     <div class="content">
                                         Merged
-                                        <span class="issue">#16 ci: Change dockerfile</span>
+                                        <span class="issue">#17 refactor: Refact Containerfile.debian</span>
                                     </div>
                                 </div>
                                 <div class="details">
                                     <div> in <span class="repo">och6z/code-bash-environment</span></div>
-                                    <div>1 file changed <span class="code">++1 --1</span></div>
+                                    <div>1 file changed <span class="code">++16 --13</span></div>
                                 </div>
                             </section>
                         </div>
@@ -76,12 +76,12 @@
                                     </svg>
                                     <div class="content">
                                         Opened
-                                        <span class="issue">#16 ci: Change dockerfile</span>
+                                        <span class="issue">#17 refactor: Refact Containerfile.debian</span>
                                     </div>
                                 </div>
                                 <div class="details">
                                     <div> in <span class="repo">och6z/code-bash-environment</span></div>
-                                    <div>1 file changed <span class="code">++1 --1</span></div>
+                                    <div>1 file changed <span class="code">++16 --13</span></div>
                                 </div>
                             </section>
                         </div>
