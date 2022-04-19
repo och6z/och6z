@@ -64,19 +64,6 @@ jobs:
           plugin_activity: yes
           plugin_activity_limit: 4
 
-      - name: Featured star list languages
-        if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@latest
-        with:
-          filename: starlists.svg
-          token: NOT_NEEDED
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
-          config_timezone: ${{ secrets.TIMEZONE }}
-          base: ""
-          plugin_starlists: yes
-          plugin_starlists_languages: yes
-          plugin_starlists_limit: 10
-
       - name: Topics labels
         if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
@@ -88,13 +75,13 @@ jobs:
           base: ""
           plugin_topics: yes
 
-      - name: Half-year isocalendar
+      - name: GitHub Skyline
         if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
         with:
-          filename: isocalendar.svg
-          token: ${{ secrets.METRICS }}
+          filename: skyline.svg
+          token: NOT_NEEDED
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           config_timezone: ${{ secrets.TIMEZONE }}
           base: ""
-          plugin_isocalendar: yes
+          plugin_skyline: yes
