@@ -28,18 +28,6 @@ jobs:
           base: repositories
           plugin_lines: yes
 
-      - name: Languages
-        if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@latest
-        with:
-          filename: languages.svg
-          token: ${{ secrets.METRICS }}
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
-          config_timezone: ${{ secrets.TIMEZONE }}
-          base: ""
-          plugin_languages: yes
-          plugin_languages_details: bytes-size, percentage, line
-
       - name: Follow-up
         if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
@@ -52,17 +40,17 @@ jobs:
           plugin_followup: yes
           plugin_followup_indepth: yes
 
-      - name: Activity
+      - name: Languages
         if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
         with:
-          filename: activity.svg
+          filename: languages.svg
           token: ${{ secrets.METRICS }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           config_timezone: ${{ secrets.TIMEZONE }}
           base: ""
-          plugin_activity: yes
-          plugin_activity_limit: 4
+          plugin_languages: yes
+          plugin_languages_details: bytes-size, percentage, line
 
       - name: Topics
         if: ${{ success() || failure() }}
@@ -75,6 +63,19 @@ jobs:
           base: ""
           plugin_topics: yes
           plugin_topics_limit: 20
+
+      - name: Activity
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: activity.svg
+          token: ${{ secrets.METRICS }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          config_timezone: ${{ secrets.TIMEZONE }}
+          base: ""
+          plugin_activity: yes
+          plugin_activity_limit: 6
+          plugin_activity_timestamps: yes
 
       - name: GitHub Skyline
         if: ${{ success() || failure() }}
