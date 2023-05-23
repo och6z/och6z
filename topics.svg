@@ -19,8 +19,8 @@
                             <div class="label" title="Java is an object-oriented programming language used mainly for web, desktop, embedded devices and mobile applications.">java</div>
                             <div class="label" title="Linux is an open source kernel.">linux</div>
                             <div class="label" title="C is a general purpose programming language that first appeared in 1972.">c</div>
-                            <div class="label" title="React is an open source JavaScript library used for designing user interfaces.">react</div>
                             <div class="label" title="Algorithms are self-contained sequences that carry out a variety of tasks.">algorithm</div>
+                            <div class="label" title="React is an open source JavaScript library used for designing user interfaces.">react</div>
                             <div class="label" title="Amazon Web Services provides on-demand cloud computing platforms on a subscription basis.">amazon web services</div>
                             <div class="label" title="Docker is a platform built for developers to build and run applications.">docker</div>
                             <div class="label" title="Machine learning is a way of modeling and interpreting data that allows a piece of software to respond intelligently.">machine learning</div>
@@ -31,12 +31,12 @@
                             <div class="label" title="MySQL is an open source relational database management system.">mysql</div>
                             <div class="label" title="Vue.js is a JavaScript framework for building interactive web applications.">vue.js</div>
                             <div class="label" title="Go is a programming language built to resemble a simplified version of the C programming language.">go</div>
-                            <div class="label" title="Data visualization is the graphic representation of data and trends.">data visualization</div>
                             <div class="label" title="Azure is a cloud computing service created by Microsoft.">azure</div>
+                            <div class="label" title="Data visualization is the graphic representation of data and trends.">data visualization</div>
                             <div class="label" title="The GitHub API allows you to build applications that integrate with GitHub.">github api</div>
                             <div class="label" title="Bash is a shell and command language interpreter for the GNU operating system.">bash</div>
                             <div class="label" title="JSON (JavaScript Object Notation) allows for easy interchange of data, often between a program and a database.">json</div>
-                            <div class="label" title="Terminal, iOS, TypeScript, Kubernetes, MATLAB, Jupyter Notebook, Security, React Native, Firebase, Spring Boot, Swift, Flask, GraphQL, Shell, LaTeX, Twitter, Sass, Testing, Pixel Art, Emacs, IPFS, ReactiveUI, generative-art, computer-graphics, godot-engine, package-management">and 26 more...</div>
+                            <div class="label" title="Terminal, iOS, TypeScript, Kubernetes, Jupyter Notebook, MATLAB, Security, React Native, Firebase, Spring Boot, Swift, Flask, GraphQL, Shell, LaTeX, Twitter, Sass, Testing, Pixel Art, Emacs, IPFS, ReactiveUI, generative-art, computer-graphics, godot-engine, package-management">and 26 more...</div>
                         </div>
                     </section>
                 </div>
