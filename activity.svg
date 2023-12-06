@@ -24,12 +24,12 @@
                                     <div class="content">
                                         Deleted
                       branch
-                                        <span class="code">request/refactor</span>
+                                        <span class="code">request/ci</span>
                                         in
                                         <span class="repo">och6z/ssh-keygen-scripts</span>
                                     </div>
                                 </div>
-                                <div class="timestamp">6 Dec 2023, 01:02:53</div>
+                                <div class="timestamp">6 Dec 2023, 14:01:33</div>
                             </section>
                         </div>
                         <div class="row fill-width">
@@ -46,11 +46,11 @@
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#67b3523</div>
-                                        <div class="message">refactor: Add bashdb</div>
+                                        <div class="sha">#793ae02</div>
+                                        <div class="message">ci: Update trigger &amp;&amp; run-name</div>
                                     </div>
                                 </div>
-                                <div class="timestamp">6 Dec 2023, 01:02:52</div>
+                                <div class="timestamp">6 Dec 2023, 14:01:33</div>
                             </section>
                         </div>
                         <div class="row fill-width">
@@ -61,14 +61,14 @@
                                     </svg>
                                     <div class="content">
                                         Merged
-                                        <span class="issue">#20 refactor: Add bashdb</span>
+                                        <span class="issue">#22 ci: Update trigger &amp;&amp; run-name</span>
                                     </div>
                                 </div>
                                 <div class="details">
                                     <div> in <span class="repo">och6z/ssh-keygen-scripts</span></div>
-                                    <div>4 files changed <span class="code">++74 --3</span></div>
+                                    <div>2 files changed <span class="code">++6 --12</span></div>
                                 </div>
-                                <div class="timestamp">6 Dec 2023, 01:02:52</div>
+                                <div class="timestamp">6 Dec 2023, 14:01:32</div>
                             </section>
                         </div>
                         <div class="row fill-width">
@@ -79,14 +79,14 @@
                                     </svg>
                                     <div class="content">
                                         Opened
-                                        <span class="issue">#20 refactor: Add bashdb</span>
+                                        <span class="issue">#22 ci: Update trigger &amp;&amp; run-name</span>
                                     </div>
                                 </div>
                                 <div class="details">
                                     <div> in <span class="repo">och6z/ssh-keygen-scripts</span></div>
-                                    <div>4 files changed <span class="code">++74 --3</span></div>
+                                    <div>2 files changed <span class="code">++6 --12</span></div>
                                 </div>
-                                <div class="timestamp">6 Dec 2023, 01:01:12</div>
+                                <div class="timestamp">6 Dec 2023, 13:59:39</div>
                             </section>
                         </div>
                         <div class="row fill-width">
@@ -98,12 +98,12 @@
                                     <div class="content">
                                         Created new
                       branch
-                                        <span class="code">request/refactor</span>
+                                        <span class="code">request/ci</span>
                                         in
                                         <span class="repo">och6z/ssh-keygen-scripts</span>
                                     </div>
                                 </div>
-                                <div class="timestamp">6 Dec 2023, 00:59:11</div>
+                                <div class="timestamp">6 Dec 2023, 13:58:58</div>
                             </section>
                         </div>
                         <div class="row fill-width">
@@ -115,12 +115,12 @@
                                     <div class="content">
                                         Deleted
                       branch
-                                        <span class="code">request/refactor</span>
+                                        <span class="code">request/feat</span>
                                         in
                                         <span class="repo">och6z/ssh-keygen-scripts</span>
                                     </div>
                                 </div>
-                                <div class="timestamp">5 Dec 2023, 20:55:58</div>
+                                <div class="timestamp">6 Dec 2023, 13:26:57</div>
                             </section>
                         </div>
                     </section>
