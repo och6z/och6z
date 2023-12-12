@@ -21,14 +21,14 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="135.6075838375479" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="135.6075838375479" y="0" width="117.75235006917556" height="8" fill="#563d7c"/>
-                    <rect mask="url(#languages-bar)" x="253.35993390672348" y="0" width="56.43572020700594" height="8" fill="#c065db"/>
-                    <rect mask="url(#languages-bar)" x="309.7956541137294" y="0" width="48.7831996971194" height="8" fill="#e34c26"/>
-                    <rect mask="url(#languages-bar)" x="358.57885381084884" y="0" width="46.25955122440046" height="8" fill="#3572A5"/>
-                    <rect mask="url(#languages-bar)" x="404.8384050352493" y="0" width="23.422410068246656" height="8" fill="#89e051"/>
-                    <rect mask="url(#languages-bar)" x="428.26081510349593" y="0" width="16.028858103533935" height="8" fill="#32AB90"/>
-                    <rect mask="url(#languages-bar)" x="444.28967320702986" y="0" width="15.710326792970129" height="8" fill="#3D6117"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="134.300326026202" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="134.300326026202" y="0" width="116.61721680393963" height="8" fill="#563d7c"/>
+                    <rect mask="url(#languages-bar)" x="250.9175428301416" y="0" width="55.891679571580106" height="8" fill="#c065db"/>
+                    <rect mask="url(#languages-bar)" x="306.8092224017217" y="0" width="48.31292939908869" height="8" fill="#e34c26"/>
+                    <rect mask="url(#languages-bar)" x="355.1221518008104" y="0" width="45.81360891073238" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="400.9357607115428" y="0" width="23.196617913738958" height="8" fill="#89e051"/>
+                    <rect mask="url(#languages-bar)" x="424.1323786252817" y="0" width="19.993281546415176" height="8" fill="#012456"/>
+                    <rect mask="url(#languages-bar)" x="444.12566017169695" y="0" width="15.87433982830309" height="8" fill="#32AB90"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -41,7 +41,7 @@
                             </div>
                             <small>
                                 <div>209 kB</div>
-                                <div>29.48%</div>
+                                <div>29.2%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -53,7 +53,7 @@
                             </div>
                             <small>
                                 <div>87.1 kB</div>
-                                <div>12.27%</div>
+                                <div>12.15%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -65,19 +65,19 @@
                             </div>
                             <small>
                                 <div>71.4 kB</div>
-                                <div>10.06%</div>
+                                <div>9.96%</div>
                             </small>
                         </div>
                         <div class="field language details">
                             <div class="field">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                    <path fill="#32AB90" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                                    <path fill="#012456" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                                 </svg>
-                                YASnippet
+                                PowerShell
                             </div>
                             <small>
-                                <div>24.7 kB</div>
-                                <div>3.48%</div>
+                                <div>31.1 kB</div>
+                                <div>4.35%</div>
                             </small>
                         </div>
                     </section>
@@ -91,7 +91,7 @@
                             </div>
                             <small>
                                 <div>181 kB</div>
-                                <div>25.6%</div>
+                                <div>25.35%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -103,7 +103,7 @@
                             </div>
                             <small>
                                 <div>75.3 kB</div>
-                                <div>10.61%</div>
+                                <div>10.5%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -115,19 +115,19 @@
                             </div>
                             <small>
                                 <div>36.1 kB</div>
-                                <div>5.09%</div>
+                                <div>5.04%</div>
                             </small>
                         </div>
                         <div class="field language details">
                             <div class="field">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                    <path fill="#3D6117" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                                    <path fill="#32AB90" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                                 </svg>
-                                TeX
+                                YASnippet
                             </div>
                             <small>
-                                <div>24.2 kB</div>
-                                <div>3.42%</div>
+                                <div>24.7 kB</div>
+                                <div>3.45%</div>
                             </small>
                         </div>
                     </section>
